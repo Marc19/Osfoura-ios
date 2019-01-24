@@ -14,6 +14,7 @@
 		9AC90A7321F9DBBE000AA4C1 /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AC90A7221F9DBBE000AA4C1 /* Search.storyboard */; };
 		9AC90A7521F9DC9F000AA4C1 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC90A7421F9DC9F000AA4C1 /* SearchViewController.swift */; };
 		9AC90A7721F9DEC5000AA4C1 /* SearchDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC90A7621F9DEC5000AA4C1 /* SearchDataController.swift */; };
+		9AC90A7921FA170E000AA4C1 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC90A7821FA170E000AA4C1 /* Cell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9AC90A7221F9DBBE000AA4C1 /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
 		9AC90A7421F9DC9F000AA4C1 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		9AC90A7621F9DEC5000AA4C1 /* SearchDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDataController.swift; sourceTree = "<group>"; };
+		9AC90A7821FA170E000AA4C1 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				9AC90A7221F9DBBE000AA4C1 /* Search.storyboard */,
+				9AC90A7821FA170E000AA4C1 /* Cell.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 			files = (
 				9AC90A7521F9DC9F000AA4C1 /* SearchViewController.swift in Sources */,
 				9AC90A7721F9DEC5000AA4C1 /* SearchDataController.swift in Sources */,
+				9AC90A7921FA170E000AA4C1 /* Cell.swift in Sources */,
 				9AC90A7121F9D477000AA4C1 /* Tweeter.swift in Sources */,
 				9AC90A5B21F9D19A000AA4C1 /* AppDelegate.swift in Sources */,
 			);
