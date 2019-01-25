@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9AB195B221FB5B0E00B13C66 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB195B121FB5B0E00B13C66 /* DetailViewController.swift */; };
 		9AC90A5B21F9D19A000AA4C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC90A5A21F9D19A000AA4C1 /* AppDelegate.swift */; };
 		9AC90A6221F9D19D000AA4C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AC90A6121F9D19D000AA4C1 /* Assets.xcassets */; };
 		9AC90A6521F9D19D000AA4C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AC90A6321F9D19D000AA4C1 /* LaunchScreen.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9AB195B121FB5B0E00B13C66 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		9AC90A5721F9D19A000AA4C1 /* Osfoura.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Osfoura.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AC90A5A21F9D19A000AA4C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9AC90A6121F9D19D000AA4C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -76,7 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				9AC90A7221F9DBBE000AA4C1 /* Search.storyboard */,
-				9AC90A7821FA170E000AA4C1 /* Cell.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -84,7 +85,9 @@
 		9AC90A6D21F9D287000AA4C1 /* view_controller */ = {
 			isa = PBXGroup;
 			children = (
+				9AC90A7821FA170E000AA4C1 /* Cell.swift */,
 				9AC90A7421F9DC9F000AA4C1 /* SearchViewController.swift */,
+				9AB195B121FB5B0E00B13C66 /* DetailViewController.swift */,
 			);
 			path = view_controller;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				9AC90A7521F9DC9F000AA4C1 /* SearchViewController.swift in Sources */,
 				9AC90A7721F9DEC5000AA4C1 /* SearchDataController.swift in Sources */,
 				9AC90A7921FA170E000AA4C1 /* Cell.swift in Sources */,
+				9AB195B221FB5B0E00B13C66 /* DetailViewController.swift in Sources */,
 				9AC90A7121F9D477000AA4C1 /* Tweeter.swift in Sources */,
 				9AC90A5B21F9D19A000AA4C1 /* AppDelegate.swift in Sources */,
 			);
